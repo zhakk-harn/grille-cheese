@@ -1,0 +1,3 @@
+- donner un moyen d'avoir la version avec et sans gap
+  - customization avec une check box comme R.css?
+  - une classe utilitaire pour activer le gap?

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="grille_cheese.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        padding: 1rem;
+        margin: 0 auto;
+        width: calc(80ch + 2rem);
+
+        font-family: system-ui, sans-serif;
+      }
+
+      section {
+        border-radius: 1rem;
+        background-color: #242424;
+        min-height: 20rem;
+
+        gap: 1rem;
+        padding: 1rem;
+
+        & > * {
+          border-radius: 1rem;
+          color: white;
+          font-weight: bold;
+          font-size: 2rem;
+          padding: 1rem 2rem;
+        }
+      }
+
+      section > *:nth-child(n) {
+        background-color: #ff1460;
+      }
+      section > *:nth-child(2n) {
+        background-color: #06fdaf;
+      }
+      section > *:nth-child(3n) {
+        background-color: #fce44b;
+      }
+      section > *:nth-child(4n) {
+        background-color: #ae23db;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><code>class="gc-center"</code></h1>
+    <section class="gc-center">
+      <div>1</div>
+    </section>
+    <h1><code>class="gc-conga"</code></h1>
+    <section class="gc-conga">
+      <div class="gc-center">1</div>
+      <div class="gc-center">1</div>
+      <div class="gc-center">1</div>
+      <div class="gc-center">1</div>
+      <div class="gc-center">1</div>
+      <div class="gc-center">1</div>
+    </section>
+    <h1><code>class="gc-pancakes"</code></h1>
+    <section class="gc-pancakes">
+      <div class="gc-center">1</div>
+      <div class="gc-center">1</div>
+      <div class="gc-center">1</div>
+      <div class="gc-center">1</div>
+      <div class="gc-center">1</div>
+      <div class="gc-center">1</div>
+    </section>
+  </body>
+</html>
